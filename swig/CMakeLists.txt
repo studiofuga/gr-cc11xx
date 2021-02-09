@@ -51,7 +51,7 @@ GR_SWIG_MAKE(cc11xx_swig cc11xx_swig.i)
 ########################################################################
 # Install the build swig module
 ########################################################################
-GR_SWIG_INSTALL(TARGETS cc11xx_swig DESTINATION "${CMAKE_INSTALL_PREFIX}${GR_PYTHON_DIR}/cc11xx")
+GR_SWIG_INSTALL(TARGETS cc11xx_swig DESTINATION "${CMAKE_INSTALL_PREFIX}/${GR_PYTHON_DIR}/cc11xx")
 
 ########################################################################
 # Install swig .i files for development
